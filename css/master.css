@@ -1,0 +1,36 @@
+/* e-Warung global styling */
+:root {
+	--navbar-color: #8c1517;
+	--container-color: ivory;
+}
+.floatright {
+	float: right;
+}
+.floatleft {
+	float: left;
+}
+.menubar {
+	width: 100%;
+	display: inline-flex;
+}
+.navbar {
+	background-color: var(--navbar-color);
+}
+.navbar-brand:link, .navbar-brand:visited {
+	color: white;
+}
+.navbar-nav li a:link, .navbar-nav li a:visited {
+	color: white;
+}
+.container {
+	background-color: var(--container-color);
+}
+.navbar li {
+	color: black;
+	font-size: ;
+}
+.navbar li a:hover {
+	background-color: #eeeeee;
+	text-underline-position:
+	text-decoration-color: 
+}
