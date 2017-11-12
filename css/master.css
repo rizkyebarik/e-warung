@@ -9,9 +9,23 @@
 .floatleft {
 	float: left;
 }
-.menubar {
-	width: 100%;
-	display: inline-flex;
+.login-container {
+	padding: 7% 30%;
+}
+img.login-icon {
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+}
+.background-red {
+	background-color: var(--main-color);
+}
+.beige-text {
+	color: var(--container-color);
+}
+.centered {
+	text-align: center;
 }
 img.small-icon {
 	width: 70px;
