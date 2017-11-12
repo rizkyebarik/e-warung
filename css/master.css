@@ -158,3 +158,104 @@ button.cancel-button {
 	font-size: 20px;
 	margin-left: 5px;
 }
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.switch input {
+	display:none;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: rgb(33, 243, 138);
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(33, 243, 51);
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+.selectlocation {
+	display: inline;
+}
+.locationbutton {
+	width: 30%;
+	float:left;
+}
+.gpsbutton {
+	float: right;
+}
+input[type=text] {
+	width: 400px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+	background-image: url("../img/searchicon.png");
+	background-size: 25px 25px;
+	background-position: 10px 10px; 
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+	width: 100%;
+}
+.empty {
+	width:60%;
+	height: 430px;
+}
+.map{
+	height: 500px;
+	background-image: url("../img/map.png");
+	width: 60%;
+}
+.confloc {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: 600px;
+	position: absolute;
+	left: 140px;
+}
