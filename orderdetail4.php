@@ -15,8 +15,27 @@
 		<div class="page-header">
 			<h1>Order Details</h1>
 		</div>
-		<div class="body-content">
+		<div class="order-info">
+			<div class="floatright order-status cooked status-fixed-height"><span class="order-detail-status">Being cooked</span></div>
+			<button class="floatright btn cancel-button disabled">× Cancel</button>
 		</div>
+		<div class="body-content">
+			<h3>You ordered: </h3>
+			<table class=" order-detail-list table table-hover table-responsive">
+				<tr>
+					<th>Image</th>
+					<th>Name</th>
+					<th>Quantity</th>
+				</tr>
+				<tr>
+					<td class="img-container"><img class="order-img" src="img/sirloinsteak.jpg"></td>
+					<td>Sirloin Steak with Potatoes</td>
+					<td>1</td>
+				</tr>
+			</table>
+		</div>
+		<button class="back-button" onclick="goBack()">❮ Back</button>
 	</div>
 </body>
+<script src="js/master.js"></script>
 </html>

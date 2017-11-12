@@ -15,8 +15,37 @@
 		<div class="page-header">
 			<h1>Order Details</h1>
 		</div>
-		<div class="body-content">
+		<div class="order-info">
+			<div class="floatright order-status queued status-fixed-height"><span class="order-detail-status">Queued</span></div>
+			<button class="floatright cancel-button">× Cancel</button>
 		</div>
+		<div class="body-content">
+			<h3>You ordered: </h3>
+			<table class=" order-detail-list table table-hover table-responsive">
+				<tr>
+					<th>Image</th>
+					<th>Name</th>
+					<th>Quantity</th>
+				</tr>
+				<tr>
+					<td class="img-container"><img class="order-img" src="img/nasiputih.jpg"></td>
+					<td>Nasi Putih</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td class="img-container"><img class="order-img" src="img/ayambakar.jpg"></td>
+					<td>Ayam bakar</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td class="img-container"><img class="order-img" src="img/kolgoreng.jpg"></td>
+					<td>Kol goreng</td>
+					<td>5</td>
+				</tr>
+			</table>
+		</div>
+		<button class="back-button" onclick="goBack()">❮ Back</button>
 	</div>
 </body>
+<script src="js/master.js"></script>
 </html>

@@ -75,8 +75,7 @@ a.order-delivering:link, a.order-delivering:visited {
 	color: white;
 }
 .order-status {
-	border-color: black;
-	border-width: 5px;
+	border: 2px solid black;
 	border-radius: 10px;
 	min-width: 170px;
 	width: 170px;
@@ -117,4 +116,45 @@ img.arrow-icon {
 	display: inline-flex;
 	position: absolute;
 	right: 20px;
+}
+button.back-button {
+	background-color: red;
+	color: white;
+	border-color: red;
+	border-radius:5px;
+	font-size: 20px;
+}
+table.order-detail-list {
+	font-size: 20px;
+}
+img.order-img {
+	width: 160px;
+	height: 100px;
+}
+td.img-container {
+	width: 45%;
+}
+.order-info {
+	display: inline-flex;
+	width: 100%;
+	justify-content: flex-end;
+}
+.status-fixed-height {
+	min-height: 45px;
+	max-height: 45px;
+	margin-right: 5px;
+	border: 2px solid black;
+}
+span.order-detail-status {
+	font-size: 20px;
+	line-height: 2;
+	vertical-align: middle;
+}
+button.cancel-button {
+	background-color: red;
+	color: white;
+	border-color: red;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-left: 5px;
 }
