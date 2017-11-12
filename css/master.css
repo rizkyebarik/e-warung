@@ -1,7 +1,7 @@
 /* e-Warung global styling */
 :root {
-	--navbar-color: #8c1517;
-	--container-color: ivory;
+	--main-color: #8c1517;
+	--container-color: beige;
 }
 .floatright {
 	float: right;
@@ -13,11 +13,28 @@
 	width: 100%;
 	display: inline-flex;
 }
+img.small-icon {
+	width: 70px;
+	height: 70px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
 .navbar {
-	background-color: var(--navbar-color);
+	background-color: var(--main-color);
+	-webkit-padding-start: 7%;
+    -webkit-padding-end: 8%;
+}
+.nav {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .navbar-brand:link, .navbar-brand:visited {
 	color: white;
+}
+#motto {
+	color: white;
+	font-family: "Roboto";
+	font-size: 12px;
 }
 .navbar-nav li a:link, .navbar-nav li a:visited {
 	color: white;
